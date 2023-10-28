@@ -1,6 +1,9 @@
 #include "algo.h"
 #include <stdlib.h>
 
+
+/* Set array */
+
 int maxOf(const int a[], int n){
     int max = a[0];
     for(int i = 0; i < n; i++){
@@ -40,6 +43,7 @@ int arrayWork(){
     return 0;
 }
 
+/* Swap order of array */
 
 #define swap(type,x,y) do{type t = x; x = y; y = t;} while(0)
 
@@ -58,7 +62,7 @@ int swapArray(){
     }
 
     for(int i = 0; i < n; i++){
-        printf("%dth element fo arrary: ", i+1);
+        printf("%dth element of arrary: ", i+1);
         scanf("%d",&a[i]);
     }
     for(int i = 0; i < n; i++){
@@ -79,6 +83,7 @@ int swapArray(){
 
     free(a);
 
-
     return 0;
 }
+
+/* Type conversion */

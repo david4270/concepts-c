@@ -10,3 +10,9 @@
 Folders with 'basic' prefix have micro projects with basic C concepts and practices. Used concepts from first year introductory programming course (APS105).
 
 **_basic-1_**: Basic calculator, scanf and printf
+
+
+## **Algo**
+Algorithms practice with C
+
+**_algo-1_**: Basic algorithms, using comparators and loops 

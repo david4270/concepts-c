@@ -2,6 +2,8 @@
 
 #include "algo.h"
 
+/*** Basic algorithms, using comparators and loops ***/
+
 int main(){
     compareAndContrast();
     sumNumHelper();
